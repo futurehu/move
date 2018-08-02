@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- iphone safari 允许全屏浏览 -->
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="shortcut icon" href="../ooopic_1529838185.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bass.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <title>search</title>
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/zepto-js/zepto.min.js"></script>
+    <script src="../js/search.js"></script>
+    <!-- 引入模板引擎 -->
+    <script src="../lib/artTemplate/template-native.js"></script>
+</head>
+
+<body>
+    <!-- 搜索页面 -->
+    <div class="search">
+        <a href="http://localhost/move/html/" class="search-back">
+            <i class="iconfont  icon-zuo1"></i>
+        </a>
+        <span>搜索</span>
+        <a href="http://localhost/move/html/" class="search-home">
+            <i class="iconfont icon-shouye"></i>
+            <span>首页</span>
+        </a>
+    </div>
+    <div class="img">
+        <img src="../images/download_banner.png" alt="">
+        <a href="javascript:;" class="open img-btn"></a>
+        <a href="javascript:;" class="download img-btn"></a>
+    </div>
+    <div class="search-bar">
+        <i class="iconfont icon-sousuo"></i>
+        <input type="text" placeholder="输入商家名">
+        <span class="btn-word" id="searchBtn">  搜索</span>
+    </div>
+    <div class="content clearfix">
+        <a href="">周边热门</a>
+        <a href="">北京欢乐谷</a>
+        <a href="">欢乐水魔方水上乐园</a>
+        <a href="">故宫博物院</a>
+        <a href="">八达岭长城</a>
+        <a href="">古北水镇</a>
+        <a href="">颐和园</a>
+        <a href="">北京野生动物园</a>
+        <a href="">圆明园</a>
+        <!-- <a href=""></a> -->
+    </div>
+    <!-- 搜索历史 -->
+    <div  id="search-history">
+            <a href="javascript:;" id="clearHis">清空搜索历史</a>
+    </div>
+    <!-- 底部开始 -->
+    <div class="footer">
+        <p>当前位置：
+            <a href="">郑州团购搜索</a>
+        </p>
+        <div class="login">
+            <a href="" class="btn">
+                登录
+            </a>
+            <a href="" class="btn">
+                注册
+            </a>
+            <div class="login-r f-r">
+                <span>城市：</span>
+                <a href="" class="btn city">北京</a>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <ul class="clearfix">
+                <li>
+                    <a href="">首页</a>
+                </li>
+                <li>
+                    <a href="">我的</a>
+                </li>
+                <li class="sp">
+                    <a href="">美团下载</a>
+                </li>
+                <li>
+                    <a href="">电脑版</a>
+                </li>
+                <li>
+                    <a href="">帮助</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-link">
+            <span>友情链接：</span>
+            <a href="">猫眼电影</a>
+            <a href="">大众点评</a>
+            <a href="">美团旅行</a>
+            <a href="" class="coment">大众点评下载</a>
+            <a href="">美团点评餐饮学院</a>
+            <a href="">榛果民宿</a>
+            <a href="">快进货商家入驻</a>
+        </div>
+        <div class="copyright">
+            <span>©2018 美团网
+                <a href="">京ICP证070791号</a>
+            </span>
+        </div>
+    </div>
+    <!-- 底部结束-->
+    <!--搜索历史的模板 -->
+    <script type="text/template" id="historyTmp">
+        <% for(var i=0;i<result.length;i++){ %>
+                <a href="javascript:;"><%=result[i]%></a>
+        <% }%>
+    </script>
+</body>
+</html>

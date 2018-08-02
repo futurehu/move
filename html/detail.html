@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- iphone safari 允许全屏浏览 -->
+  <meta content="yes" name="apple-touch-fullscreen">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <link rel="stylesheet" href="../fonts/iconfont.css">
+  <link rel="shortcut icon" href="../ooopic_1529838185.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/bass.css">
+  <link rel="stylesheet" href="../lib/swiper/css/swiper.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/detail.css">
+
+  <title>detail</title>
+  <script src="../lib/flexible.js"></script>
+  <!-- <script src="../lib/zepto-js/zepto.min.js"></script> -->
+  <!-- <script src="../lib/zepto-js/fx.js"></script> -->
+  <script src="../lib/fastclick-master/lib/fastclick.js"></script>
+  <!-- <script src="../lib/zepto-js/fx_meth.js"></script> -->
+  <!-- 引入动画效果插件 -->
+  <script src="../lib/jquery/jquery-1.12.2.js"></script>
+  <script src="../lib/jquery.easing-1.3.2/jquery.easing.min.js"></script>
+  <script src="../lib/swiper/js/swiper.min.js"></script>
+  <script src="../js/detail.js"></script>
+  <!-- 引入模板引擎 -->
+  <script src="../lib/artTemplate/template-native.js"></script>
+</head>
+
+<body>
+  <!-- 顶部开始 -->
+  <div class="search">
+    <a href="http://localhost/move/html/" class="search-back">
+      <i class="iconfont  icon-zuo1"></i>
+    </a>
+    <span>团购详情</span>
+    <a href="javascript:;" class="search-home" id="collect">
+      <i class="iconfont icon-shoucang"></i>
+      <span id="change">收藏</span>
+    </a>
+    <a href="javascript:;" class="search-home" id="nav">
+      <i class="iconfont icon-daohang"></i>
+      <span>导航</span>
+    </a>
+  </div>
+  <div class="down">
+    <a href="http://localhost/move/html/" class="down-nav">
+      <i class="iconfont icon-shouye"></i>
+      <span>首页</span>
+    </a>
+    <a href="http://localhost/move/html/login.html" class="down-nav">
+
+      <i class="iconfont icon-wode"></i>
+      <span>我的</span>
+
+    </a>
+  </div>
+  <!-- 顶部结束 -->
+  <div class="img">
+    <img src="../images/download_banner.png" alt="">
+  </div>
+  <div class="pic">
+    <div class="tipMes">
+      收藏成功
+    </div>
+    <a href="javascript:;">
+      <div id="fishImg">
+
+      </div>
+
+      <p>单人自助餐全天价</p>
+    </a>
+  </div>
+  <!-- 点击出现的遮罩层 -->
+  <div class="cover">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- 立即抢购 -->
+  <div class="buy">
+    <ul>
+      <li class="clearfix">
+        <div class="price">
+
+        </div>
+        <span class="yuan">元</span>
+        <div class="doorPrice"> </div>
+        <a href="" class="buy-btn">立即抢购</a>
+      </li>
+    </ul>
+  </div>
+  <div class="reduce">
+    <i>减</i>
+    <span>商家新客首购立减10元，每人限购1张</span>
+  </div>
+  <div class="tui clearfix">
+    <ul>
+      <li>
+        <i class="iconfont icon-tui"></i>
+        <span>支持随时退款</span>
+      </li>
+      <li>
+        <i class="iconfont icon-duigou"></i>
+        <span>支持过期自动退</span>
+      </li>
+      <li>
+        <i class="iconfont icon-yishou"></i>
+
+      </li>
+    </ul>
+  </div>
+  <!-- 评论开始 -->
+  <div class="comment">
+    <div class="comment-top">
+      <span>★★★★★★ 4.2</span>
+      <span class="f-r">9246人评价 ></span>
+    </div>
+    <div class="comment-bottom">
+
+    </div>
+  </div>
+  <!-- 商家信息开始 -->
+  <div class="shopInfo ">
+    <div class="shopInfo-top">
+      <span>商家信息</span>
+    </div>
+    <div class="shopInfo-bottom clearfix">
+      <div class="shopInfo-bottom-l f-l">
+
+        <span>
+          <i class="iconfont icon-local"></i>
+          <span class="near">离我最近</span>
+        </span>
+      </div>
+      <div class="shopInfo-bottom-r f-r" id="phone">
+        <i class="iconfont icon-dianhua "></i>
+      </div>
+    </div>
+  </div>
+  <!-- mask -->
+  <div id="mask">
+    <div class="call">
+      <div class="call-top">
+        <div class="tip">拨打电话</div>
+        <div class="num">18538932372</div>
+      </div>
+      <div class="call-bottom">
+        <div class="cancel">取消</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 套餐 -->
+  <div class="taocan shopInfo">
+    <div class="shopInfo-top">
+      <span>套餐</span>
+    </div>
+    <div class="shopInfo-top clearfix" id="row">
+      <span>单人自助餐全天价</span>
+      <span>1位</span>
+      <span>59元</span>
+    </div>
+  </div>
+  <div class="rul">
+    <ul>
+      <li>单人自助餐全天价：11:00-14:00,17:00-22:00</li>
+      <li>最多可用餐 2 小时</li>
+      <li>周六，周日，法定节假日，到店消费需另付10元。</li>
+    </ul>
+  </div>
+  <div class="all">
+    <span>查看图文详情</span>
+    <i> &gt;</i>
+  </div>
+  <div class="shopInfo">
+    <div class="shopInfo-top">
+      <span>购买须知</span>
+    </div>
+  </div>
+  <div class="konw">
+    <div class="title">有效期</div>
+
+    <p>2015.3.26 至 2018.7.11（周末、法定节假日通用）</p>
+    <div class="title">使用规则</div>
+    <div class="rul detail-rul">
+      <ul>
+        <li>无需预约，消费高峰时可能需要等位</li>
+        <li>每张美团券最多1位成人使用，身高1.1米以上儿童计入人数</li>
+        <li>1 儿童39/位（1.1米-1.4米，1.1米以下儿童免费，不含1.1米）</li>
+        <li>2 老人39/位（65岁以上，持有效身份证件为准）</li>
+        <li>3 寿星39/位（以身份证阳历当天日期为准）</li>
+        <li>4 为避免浪费，到店消费需付押金10元每位，每桌剩余菜品超过150克以上扣除押金，如无浪费退还押金。</li>
+        <li>5 晚餐，周六，周日，法定节假日，到店消费需另付10元。</li>
+        <li>6 周六，周日全天营业11:00—22:00</li>
+        <li>7 午餐营业时间11:00--14:00 晚餐营业时间16:30—22:00</li>
+      </ul>
+    </div>
+  </div>
+  <div class="shopInfo" id="com">
+    <div class="shopInfo-top">
+      <span>评价</span>
+    </div>
+  </div>
+  <!-- 反馈部分 -->
+  <div class="feedback">
+
+  </div>
+  <div class="all">
+    <span>查看全部评价</span>
+    <i> &gt;</i>
+  </div>
+  <!-- totop 图标 -->
+  <div id="toTop">
+    <img src="../images/toTop.png" alt="">
+  </div>
+  <!-- 底部开始 -->
+  <div class="footer">
+    <div class="current">
+      当前位置：团购>
+      <a href="">鑫海汇海鲜烤肉自助</a>
+    </div>
+    <div class="login">
+      <a href="" class="btn">
+        登录
+      </a>
+      <a href="" class="btn">
+        注册
+      </a>
+      <div class="login-r f-r">
+        <span>城市：</span>
+        <a href="" class="btn city">北京</a>
+      </div>
+    </div>
+    <div class="footer-nav">
+      <ul class="clearfix">
+        <li>
+          <a href="">首页</a>
+        </li>
+        <li>
+          <a href="">我的</a>
+        </li>
+        <li class="sp">
+          <a href="">美团下载</a>
+        </li>
+        <li>
+          <a href="">电脑版</a>
+        </li>
+        <li>
+          <a href="">帮助</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-link">
+      <span>友情链接：</span>
+      <a href="">猫眼电影</a>
+      <a href="">大众点评</a>
+      <a href="">美团旅行</a>
+      <a href="" class="coment">大众点评下载</a>
+      <a href="">美团点评餐饮学院</a>
+      <a href="">榛果民宿</a>
+      <a href="">快进货商家入驻</a>
+    </div>
+    <div class="copyright">
+      <span>©2018 美团网
+        <a href="">京ICP证070791号</a>
+      </span>
+    </div>
+  </div>
+  <!-- 底部结束-->
+  <!-- 评论部分模板 -->
+  <script type="text/template" id="feedbackTmp">
+    <%  for(var i=0;i<commentArr.length;i++) {%>
+      <div class="feedback-top clearfix">
+        <div class="feedback-l f-l">
+          <img src="<%=commentArr[i].userPic %>" alt="" class="me">
+          <span>
+            <%=commentArr[i].username %>
+          </span>
+          <p class="p-container">
+            <i class="iconfont icon-pingfen"></i>
+            <i class="iconfont icon-pingfen"></i>
+            <i class="iconfont icon-pingfen"></i>
+            <i class="iconfont icon-pingfen"></i>
+            <i class="iconfont icon-pingfen"></i>
+            <span>
+              <%=commentArr[i].time %>
+            </span>
+          </p>
+        </div>
+        <div class="feedback-r f-r">
+          <img src="../images/comment.png" alt="">
+        </div>
+      </div>
+      <div class="feedback-bottom clearfix">
+        <p id="clamp-this-module">
+          <%=commentArr[i].content %>
+            <i class="iconfont icon-xiala" ></i>
+        </p>
+        <img src="../images/detail1.png" alt="" class="f-l">
+        <img src="../images/detail2.png" alt="" class="f-l">
+
+      </div>
+      <a href="#" id="where">
+        <%=commentArr[i].local %>
+      </a>
+      <% } %>
+  </script>
+  <script type="text/template" id="tagTmp">
+    <% for(let i=0;i<tags.length;i++){ %>
+      <a href="javascript:;">
+        <span>
+          <%=tags[i].t1 %>
+        </span>
+      </a>
+      <% }%>
+
+  </script>
+  <!-- 图片详情的模板 -->
+  <script type="text/template" id="picDetail">
+    <% for(var i=0;i<imgArr.length;i++) {%>
+      <div class="swiper-slide">
+        <img src="<%=imgArr[i] %>">
+      </div>
+      <%  } %>
+
+  </script>
+</body>
+
+</html>

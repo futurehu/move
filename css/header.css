@@ -1,0 +1,56 @@
+.header-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  overflow: hidden;
+  width: 100%;
+  height: 1.333333rem;
+  background-color: #06c1ae;
+}
+.header-box span,
+.header-box i {
+  color: white;
+  font-size: .426667rem;
+}
+.header-box .local {
+  line-height: 1.333333rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.8rem;
+  height: 100%;
+}
+.header-box .search {
+  padding: 0 .133333rem;
+  border-radius: 6px;
+  text-align: left;
+  line-height: .853333rem;
+  height: .853333rem;
+  background-color: #05a494;
+  margin-left: 1.8rem;
+  display: block;
+  margin-top: .266667rem;
+  margin-right: 1.253333rem;
+}
+.header-box .search > span {
+  font-size: .346667rem;
+  color: #3dc3b5;
+}
+.header-box > .my {
+  width: 1.253333rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header-box > .my i {
+  font-size: .533333rem ;
+  line-height: 1.146667rem;
+  margin-left: .133333rem;
+}
+.header-box sub {
+  position: absolute;
+  font-size: .266667rem;
+  top: .9rem;
+  left: .3rem;
+}

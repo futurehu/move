@@ -1,0 +1,69 @@
+/* 浮动 */
+.f-r {
+  float: right;
+}
+.f-l {
+  float: left;
+}
+/* 清除浮动造成的影响 */
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+html {
+  height: 100%;
+  min-width: 320px;
+  /* font-size: 75px!important; */
+}
+body {
+  height: 100%;
+}
+/* 清除默认边距 */
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+input,
+form,
+dl,
+dd,
+dt,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  /*去除移动端特有的点击高亮效果*/
+  -webkit-tap-highlight-color: transparent;
+}
+input {
+  outline: 0;
+}
+body {
+  background-color: #f0efed;
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+/* 设置a的默认样式 */
+a {
+  text-decoration: none;
+  color: #999;
+  text-align: center;
+}

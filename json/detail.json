@@ -1,0 +1,121 @@
+[{
+    "id": 2,
+    "bannerImg": "../upload/pizza.jpg",
+    "price": 65,
+    "doorPrice": 250,
+    "saled": 4500,
+    "comments": 1003,
+    "arr": [{
+            "t1": "回头客90"
+        }, {
+            "t1": "干净卫生200"
+        }, {
+            "t1": "味道赞99"
+        }, {
+            "t1": "菜品丰富68"
+        }, {
+            "t1": "不推荐8"
+        }
+
+    ],
+    "title": "比格比萨",
+    "shopTitle": "比格比萨（万柳华联店）",
+    "shopaddress": "海淀区巴沟路万柳华联购物中心4F-41",
+    "commentArr": [{
+        "userPic": "../upload/tou1.png",
+        "username": "L丶芳",
+        "time": "2018-06-5",
+        "content": "披萨都是现做的，种类很多！有榴莲，烤肉，水果，海鲜各种口味！饮品口感很正！还有酸奶，现泡的红茶，绿茶！咖啡，奶茶！还有一些小海鲜，各种炒菜，甜品，水果都不错！比",
+        "desCrip": "../upload/user2.png",
+        "local": "比格比萨（火神庙餐厅）"
+    }, {
+        "userPic": "../upload/tou2.png",
+        "username": "LF秋",
+        "time": "2017-03-20",
+        "content": "满足了我吃各种口味pizza的愿望啊，大爱榴莲口味披萨，其次至尊披萨，环境不错，晚上去的，人不是很多，刚刚好，热菜炒菜意大利面不好吃，口味淡，小吃比较好，当然主",
+        "desCrip": "../upload/user2.png",
+        "local": "比格比萨（火神庙餐厅）"
+    }, {
+        "userPic": "../upload/tou3.png",
+        "username": "可爱她妈咪",
+        "time": "2016-06-30",
+        "content": "满足了我吃各种口味pizza的愿望啊，大爱榴莲口味披萨，其次至尊披萨，环境不错，晚上去的，人不是很多，刚刚好，热菜炒菜意大利面不好吃，口味淡，小吃比较好，当然主",
+        "desCrip": "../upload/user2.png",
+        "local": "比格比萨（火神庙餐厅）"
+    }],
+    "imgArr": [
+        "../upload/pizza.jpg",
+
+        "../images/clik1.jpng.jpg",
+
+        "../images/click2.jpg",
+
+        "../images/click3.jpg",
+        "../upload/p1.jpg"
+    ]
+
+}, {
+    "id": 1,
+    "bannerImg": "../upload/fish.jpg",
+    "price": 49.9,
+    "doorPrice": 150,
+    "saled": 7749,
+    "comments": 562,
+    "arr": [{
+        "t1": "干净卫生817"
+    }, {
+        "t1": "回头客152"
+    }, {
+        "t1": "朋友聚餐54"
+    }, {
+        "t1": "不推荐25"
+    }, {
+        "t1": "家庭聚餐100"
+    }, {
+        "t1": "上菜快20"
+    }, {
+        "t1": "闺蜜聚会30"
+    }, {
+        "t1": "公司聚餐562"
+    }, {
+        "t1": "聚餐568"
+    }],
+    "title": "鑫海汇海鲜烤肉自助",
+    "shopTitle": "鑫海汇海鲜烤肉自助（华联商厦店）",
+    "shopaddress": "二七区民主路3号华联商厦5层",
+
+    "commentArr": [{
+        "userPic": "../upload/user1.png",
+        "username": "RPj283146988",
+        "time": "2018-06-20",
+        "content": "超级不错的一次体 门口的小姐姐也特别好看 下次还会来 #海鲜# #蛋挞# #冰淇淋# #水煮海鲜# #烤生蚝# #各种# #培根卷金针菇# #烤鸡翅# #鸡尾酒",
+        "desCrip": "../upload/user2.png",
+        "local": "鑫海汇海鲜烤肉自助（华联商厦店）"
+
+    }, {
+        "userPic": "../upload/user2.png",
+        "username": "笑眼迷蒙520",
+        "time": "2017-05-20",
+        "content": "体验很好，东西很全，除了海鲜烤肉还有熟食，水果也很新鲜 #海鲜# #蟹腿# #三文鱼# #蛋挞# #自酿啤酒# #水煮海鲜# #螃蟹# #各种# #培根卷金针菇",
+        "desCrip": "../upload/user2.png",
+        "local": "鑫海汇海鲜烤肉自助（华联商厦店）"
+    }, {
+        "userPic": "../upload/user4.png",
+        "username": "宇宙无敌大刷",
+        "time": "2017-06-30",
+        "content": "超级不错的一次体 门口的小姐姐也特别好看 下次还会来 #海鲜# #蛋挞# #冰淇淋# #水煮海鲜# #烤生蚝# #各种# #培根卷金针菇# #烤鸡翅# #鸡尾酒",
+        "desCrip": "../upload/user2.png",
+        "local": "鑫海汇海鲜烤肉自助（华联商厦店）"
+    }],
+    "imgArr": [
+        "../upload/fish.jpg",
+
+        "../upload/k2.jpg",
+
+        "../upload/k3.jpg",
+
+        "../upload/k4.jpg"
+
+    ]
+
+}]

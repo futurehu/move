@@ -1,0 +1,121 @@
+[{
+        "id": 1,
+        "title": "美食",
+        "class": "icon-meishi",
+        "bgc": "color1"
+
+    }, {
+        "id": 1,
+        "title": "猫眼电影",
+        "class": "icon-maoyan",
+        "bgc": "color2"
+    },
+    {
+        "id": 1,
+        "title": "酒店",
+        "class": "icon-jiudian",
+        "bgc": "color3"
+    },
+    {
+        "id": 1,
+        "title": "休闲娱乐",
+        "class": "icon-xiuxianyule",
+        "bgc": "color4"
+    },
+    {
+        "id": 1,
+        "title": "外卖",
+        "class": "icon-waimai",
+        "bgc": "color1"
+    },
+    {
+        "id": 1,
+        "title": "KTV",
+        "class": "icon-KTV",
+        "bgc": "color4"
+    },
+    {
+        "id": 1,
+        "title": "周边游",
+        "class": "icon-zhoubianyou",
+        "bgc": "color5"
+    },
+    {
+        "id": 1,
+        "title": "丽人",
+        "class": "icon-liren1",
+        "bgc": "color6"
+    },
+    {
+        "id": 1,
+        "title": "小吃快餐",
+        "class": "icon-xiaochikuaican",
+        "bgc": "color1"
+    },
+    {
+        "id": 1,
+        "title": "机票/火车票",
+        "class": "icon-huochepiao",
+        "bgc": "color7"
+    },
+    {
+        "id": 2,
+        "title": "足疗/按摩",
+        "class": "icon-zuliao",
+        "bgc": "color4"
+
+    }, {
+        "id": 2,
+        "title": "今日新单",
+        "class": "icon-jinrixindan",
+        "bgc": "color9"
+    },
+    {
+        "id": 2,
+        "title": "生活服务",
+        "class": "icon-shenghuofuwu",
+        "bgc": "color10"
+    },
+    {
+        "id": 2,
+        "title": "甜点饮品",
+        "class": "icon-tiandianyinpin",
+        "bgc": "color4"
+    },
+    {
+        "id": 2,
+        "title": "婚纱摄影",
+        "class": "icon-jiehun",
+        "bgc": "color1"
+    },
+    {
+        "id": 2,
+        "title": "母婴亲子",
+        "class": "icon-muyingqinzi",
+        "bgc": "color6"
+    },
+    {
+        "id": 2,
+        "title": "学习培训",
+        "class": "icon-xuexipeixun",
+        "bgc": "color7"
+    },
+    {
+        "id": 2,
+        "title": "结婚",
+        "class": "icon-jiehun",
+        "bgc": "color2"
+    },
+    {
+        "id": 2,
+        "title": "家装",
+        "class": "icon-xiaochikuaican",
+        "bgc": "color7"
+    },
+    {
+        "id": 2,
+        "title": "全部分类",
+        "class": "icon-diandiandian",
+        "bgc": "color9"
+    }
+]
